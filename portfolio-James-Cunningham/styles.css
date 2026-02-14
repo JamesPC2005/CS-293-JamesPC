@@ -1,6 +1,31 @@
+body{
+    background-color: forestgreen;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2%;
+}
+
+h1{
+    color:antiquewhite;
+    background-color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2%
+}
+h2{
+    color:antiquewhite;
+    background-color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2%
+    border = 2%;
+}
+p{
+    color: antiquewhite;
+}
 a{
     color:blue;
-    text-decoration: underline;
+    text-decoration: underline;    
+}
+a:hover{
+    color:darkblue
 }
 img{
     border:2% white;
