@@ -4,18 +4,11 @@ body{
     padding:2%;
 }
 
-h1{
+h1, h2{
     color:antiquewhite;
     background-color: darkolivegreen;
     font-family: 'Times New Roman', Times, serif;
     padding:2%
-}
-h2{
-    color:antiquewhite;
-    background-color: darkolivegreen;
-    font-family: 'Times New Roman', Times, serif;
-    padding:2%
-    border = 2%;
 }
 p{
     color: antiquewhite;
@@ -26,8 +19,15 @@ a{
 }
 a:hover{
     color:darkblue
+    text-decoration: underline; 
 }
 img{
     border:2% white;
     padding: 2%;
+}
+.leftimg{
+    float: left;
+}
+div.banner{
+    background-color: grey;
 }
