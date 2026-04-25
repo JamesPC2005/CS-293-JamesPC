@@ -1,7 +1,7 @@
 body{
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     padding: 0px;
-    background-color: forestgreen;
+    background-color: rgb(0, 34, 92);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -9,24 +9,34 @@ h1, h2{
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
 }
+
 p{
     color: antiquewhite;
 }
+
 a{
     color:antiquewhite;
     text-decoration: underline;    
 }
+
 a:hover{
     color:white;
     text-decoration: underline; 
 }
+
+div{
+    background-color: darkgray;
+}
+
 img{
     border:2% solid white;
-    padding: 2%;
 }
+
 .leftimg{
     float: left;
+    padding: 10px 20px;
 }
+
 div.banner{
     background-color: darkcyan;
     border: 5px solid antiquewhite;
@@ -37,4 +47,8 @@ div.banner{
 
     padding: 20px;
     
+}
+a.banner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
