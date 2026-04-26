@@ -15,43 +15,29 @@ body{
     background-size: cover;
     background-position: center; /*Fond this background setup on severl differet websites, im gonna try to see if i can get it to work for mine*/
 }
-h1, h2{
-    color: antiquewhite;
-    font-family: 'Times New Roman', Times, serif;
-}
-p{
-    color: antiquewhite;
-}
-a{
-    color:antiquewhite;
-    text-decoration: underline;    
-}
-a:hover{
-    color:white;
-    text-decoration: underline; 
-}
-div{
-    background-color: darkgray;
-}
-img{
-    border:2% solid white;
-}
-.leftimg{
-    float: left;
-    padding: 10px 20px;
-}
-div.banner{
+
+nav{
     background-color: darkcyan;
     border: 5px solid antiquewhite;
     
     display:flex;
     align-items: center;
     justify-content: space-between;
-
-    padding: 20px;
-    
+    flex-wrap: wrap;
 }
-a.banner{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: antiquewhite;
+}
+nav ul li a{
+    color:antiquewhite; 
+}
+nav ul li a:hover{
+    color:white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
 }
