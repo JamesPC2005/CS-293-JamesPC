@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
     background: #080808;
@@ -11,14 +11,13 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(Images/clear.png);
+    background-image: url(Images/mainscreen.png);
     background-size: cover;
     background-position: center; /*Fond this background setup on severl differet websites, im gonna try to see if i can get it to work for mine*/
 }
-
 nav{
-    background-color: darkcyan;
-    border: 5px solid antiquewhite;
+    /*background-color: darkcyan;
+    border: 5px solid antiquewhite;*//*decided to try out a new look for the main screen, i think i like the picture over the pattern and bar from before*/
     
     display:flex;
     align-items: center;
@@ -35,11 +34,19 @@ nav ul li a{
     color:antiquewhite; 
     text-decoration: none;
     font-size: 18px;
+    position: relative;
 }
-nav ul li a:hover{
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
+nav ul li a::after{ /* this section adds a fancier underline to the links at the top of the page, it looks a lot better than before, it did take a long time to get working though*/
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: navy; /*temporary color choice for visability, but i hope i can use this color in the final*/
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+nav ul li a:hover::after{
+    width:100%;
 }
 .logo{
     width: 100px;
