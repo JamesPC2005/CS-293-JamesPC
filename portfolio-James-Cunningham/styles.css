@@ -16,6 +16,7 @@ body{
     background-position: center; /*Fond this background setup on severl differet websites, im gonna try to see if i can get it to work for mine*/
 }
 .headertext{
+    
     margin-top: 5%;
     font-size: 30px;
 }
@@ -71,6 +72,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 5%;
 }
 .about-collum1{
     flex-basis: 30%; /*makes the image take exactly half the pages width*/
@@ -86,4 +88,19 @@ nav ul li a:hover::after{
     font-size: 90px;
     font-weight: 800;
     color: antiquewhite;
+}
+
+/*Start working on the work history section*/
+
+#history{
+    padding: 100px 5%;
+}
+.history-collum{
+    flex-basis: 30%;
+}
+
+/*Start work on the projects section*/
+
+#projects{
+    padding: 100px 5%;
 }
