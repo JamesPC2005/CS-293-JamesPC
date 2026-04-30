@@ -6,7 +6,7 @@
 }
 body{
     background: #080808;
-    color: #fff;
+    color: antiquewhite;
 }
 #header{
     width: 100%;
@@ -14,6 +14,14 @@ body{
     background-image: url(Images/mainscreen.png);
     background-size: cover;
     background-position: center; /*Fond this background setup on severl differet websites, im gonna try to see if i can get it to work for mine*/
+}
+.headertext{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.headertext h1{
+    margin-top: 5%;
+    font-size: 60px;
 }
 nav{
     /*background-color: darkcyan;
