@@ -60,3 +60,22 @@ nav ul li a:hover::after{
     width: 100px;
     height: 100px;
 }
+
+/*start working on the about section here*/
+
+#about{
+    padding: 80px 5%; 
+    color: ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-collum1{
+    flex-basis: 30%; /*makes the image take exactly half the pages width*/
+}
+.about-collum1 img{
+    width: 100%; /*width relitive to collum 1, not the whole page like in header*/
+    border-radius: 15px;
+}
