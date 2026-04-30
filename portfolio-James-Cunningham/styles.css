@@ -79,3 +79,11 @@ nav ul li a:hover::after{
     width: 100%; /*width relitive to collum 1, not the whole page like in header*/
     border-radius: 15px;
 }
+.about-collum2{
+    flex-basis: 60%;
+}
+.section title{
+    font-size: 90px;
+    font-weight: 800;
+    color: antiquewhite;
+}
