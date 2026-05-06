@@ -97,6 +97,11 @@ nav ul li a:hover::after{
 }
 .history-collum{
     flex-basis: 30%;
+    transition: background-color 0.5s ease;
+}
+
+.history-collum:hover{
+    background-color: rgba(16, 0, 109, 0.644);
 }
 
 /*Start work on the projects section*/
