@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   
-  const dropdown = document.getElementById("drop-down");
-
+    const dropdown = document.getElementById("drop-down");
+    document.getElementById("header").style.backgroundImage = "url('Images/mainscreen.png')";
   
-  dropdown.addEventListener("click", change_dropdown);
+    dropdown.addEventListener("click", change_dropdown);
 });
 
 console.log("js loading")
